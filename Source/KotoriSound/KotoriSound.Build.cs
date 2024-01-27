@@ -25,7 +25,7 @@ public class KotoriSound : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				"Core", "KotoriCore",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

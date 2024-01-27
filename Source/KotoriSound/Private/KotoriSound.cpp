@@ -3,7 +3,7 @@
 #include "KotoriSound.h"
 
 #define LOCTEXT_NAMESPACE "FKotoriSoundModule"
-
+DEFINE_LOG_CATEGORY(LogKtrSound)
 void FKotoriSoundModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module

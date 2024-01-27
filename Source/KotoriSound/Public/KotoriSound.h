@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(LogKtrSound, Log, All)
 class FKotoriSoundModule : public IModuleInterface
 {
 public:
